@@ -18,4 +18,9 @@ int main()
 
         cout<<endl;
     }
+
+    int a = 10;
+
+    int result = ++a * ++a;
+    cout<<result;
 }
